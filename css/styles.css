@@ -12,7 +12,7 @@
     background-color: darkgray;
     justify-content: space-between;
     margin: 0 17.5vw;
-    padding: 3vh 3vw;
+    padding: 6vh 3vw;
     position: relative;
 }
 
@@ -35,7 +35,7 @@
     padding: 1vh 1vw;
     width: 30vw;
     position: absolute;
-    right: 15vw;
+    right: 15.5vw;
 }
 
 #informacionDojonary {
@@ -55,6 +55,8 @@
     font-size: medium;
     font-weight: bold;
     padding: 1vh 1vw;
+    position: absolute;
+    right: 4.5vw;
 }
 
 #login:active {
@@ -142,6 +144,7 @@
 .tituloDojonary {
     font-size: xx-large;
     font-weight: 500;
+    position: absolute;
 }
 
 .bloqueAgregado span {
