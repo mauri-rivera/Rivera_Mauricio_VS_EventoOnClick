@@ -57,6 +57,7 @@
     padding: 1vh 1vw;
     position: absolute;
     right: 4.5vw;
+    width: 7vw;
 }
 
 #login:active {
