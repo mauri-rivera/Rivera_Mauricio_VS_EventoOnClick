@@ -1,0 +1,152 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+#barraDojonary {
+    align-items: center;
+    display: flex;
+    background-color: darkgray;
+    justify-content: space-between;
+    margin: 0 17.5vw;
+    padding: 3vh 3vw;
+    position: relative;
+}
+
+#botonAgregado {
+    background-color: forestgreen;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    cursor: pointer;
+    font-size: medium;
+    padding: 1vh 3vh;
+    width: 100%;
+}
+
+#botonAgregado:hover {
+    background-color: chartreuse;
+} 
+
+#busqueda {
+    border: 3px solid black;
+    padding: 1vh 1vw;
+    width: 30vw;
+    position: absolute;
+    right: 15vw;
+}
+
+#informacionDojonary {
+    align-items: start;
+    display: flex; 
+    justify-content: space-around;
+    margin: 0 17.5vw;
+    padding: 5vh 0;
+}
+
+#login {
+    background-color: dodgerblue;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    color: white;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    padding: 1vh 1vw;
+}
+
+#login:active {
+    background-color: dodgerblue;
+}
+
+#login:hover {
+    background-color: blue;
+}
+
+.bloqueInformacion {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5vw;
+}
+
+.botonLike {
+    background-color: goldenrod;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    cursor: pointer;
+    padding: 1vh 3vh;
+}
+
+.botonLike:active {
+    background-color: goldenrod;
+}
+
+.botonLike:hover {
+    background-color: darkorange;
+}
+
+.datosDojonary {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 13vh;
+}
+
+.definicionConcepto {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 2vw;
+    min-height: 20.5vh;
+    width: 50%;
+}
+
+.definicionDojonary {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5vw;
+    min-height: 15vh;
+    padding: 3vh 3vw;
+}
+
+.descripcionConcepto {
+    margin-left: 2vw;
+}
+
+.explicacionDojonary {
+    font-size: large;
+    font-weight: bold; 
+    text-align: justify;
+}
+
+.informacionConcepto {
+    align-items: center;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+    padding: 3vh 3vw;
+    width: 28vw;
+}
+
+.lineaCategoria {
+    font-weight: bold;
+}
+
+.tituloDojonary {
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.bloqueAgregado span {
+    font-size: x-large;
+    font-weight: 500;
+    text-align: justify;
+}
+

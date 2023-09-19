@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dojonary</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <nav id="barraDojonary">
+            <h1 class="tituloDojonary">Dojonary</h1>
+            <input type="text" id="busqueda" name="busqueda" placeholder="Search">
+            <input type="submit" id="login" onclick="presionarLogin(this)" name="login" value="Login">
+        </nav>
+        <div id="informacionDojonary">
+            <div class="bloqueInformacion">
+                <div class="informacionConcepto">
+                    <div class="definicionConcepto">
+                        <div class="datosDojonary">
+                            <h1 class="tituloDojonary">ninja</h1>
+                            <span class="lineaCategoria">noun</span>
+                            <span class="pluralDojonary">Plural: <em>ninjas</em></span>
+                        </div>
+                        <div class="bloqueLike">
+                            <input type="submit" class="botonLike" onclick="agregarLike(this)" name="botonLike" value="13 likes">
+                        </div>
+                    </div>
+                    <div class="descripcionConcepto">
+                        <p class="explicacionDojonary">A practitioner skilled in the <a href="#" alt="japanese">Japanese</a> art of <a href="#" alt="ninjutsu">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="informacionConcepto">
+                    <div class="definicionConcepto">
+                        <div class="datosDojonary">
+                            <h1 class="tituloDojonary">ninja</h1>
+                            <span class="lineaCategoria">noun</span>
+                            <span class="pluralDojonary">Plural: <em>ninjas</em></span>
+                        </div>
+                        <div class="bloqueLike">
+                            <input type="submit" class="botonLike" onclick="agregarLike(this)" name="botonLike" value="37 likes">
+                        </div>
+                    </div>
+                    <div class="descripcionConcepto">
+                        <p class="explicacionDojonary">A <a href="#" alt="programmer">programmer</a> who breaks down problem with <a href="#" alt="zen">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="definicionDojonary">
+                <div class="bloqueAgregado">
+                    <span>Dojonary is defined for <strong>YOU</strong></span>
+                </div>
+                <div class="bloqueBotonAgregado">
+                    <input type="submit" id="botonAgregado" onclick="agregarDefinicion(this)" name="botonAgregado" value="Add Definition">
+                </div>
+            </div>
+        </div>
+        <script src="./js/dojonary.js"></script>
+    </body>
+</html>
