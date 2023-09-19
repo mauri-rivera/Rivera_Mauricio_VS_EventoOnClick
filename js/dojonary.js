@@ -8,6 +8,7 @@ function agregarLike(elemento) {
     numero++;
 
     elemento.value = `${numero} likes`;
+    alert("Ninja was liked");
 }
 
 function presionarLogin(elemento) {
